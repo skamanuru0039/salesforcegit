@@ -1,13 +1,16 @@
-/*****************
- * Name - Calculator
- * Author - Sudarsan
- * Date - 06/12/2023
+/*********************************************************
+ *  Version     Date          Name           Description
+ * *******************************************************
+ *   V1.0     08-12-2023    Developer1     Add method implemented
  * 
- */
+ * *******************************************************/
 public with sharing class Calculator {
     public Calculator() {
     }
      public integer sub(integer a, integer b){
         return a-b;
      }
+      public integer add(integer a, integer b){
+        return a+b;
+      }
 }
